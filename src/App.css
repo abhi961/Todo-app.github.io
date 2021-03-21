@@ -1,0 +1,141 @@
+body{
+  font-family: poppins;
+}
+ol li{
+  list-style: none;
+}
+
+.Main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3399ff;
+  height: 100vh;
+}
+.center-div {
+  background: #fff;
+  width: 22vw;
+  border-radius: 18px;
+  box-shadow: 0px 3px 27px -13px rgba(0,0,0,0.60);
+  height: 66%;
+  
+}
+.center-div h1 {
+  text-align: center;
+  color: #ff0066;
+  /* color: black; */
+  background: bisque;
+}
+input {
+  text-align: center;
+  border: none;
+  outline: none;
+  height: 30px;
+  font-size: 18px;
+  font-family: poppins;
+  margin-right: 54px;
+  position: relative;
+  left: 28px;
+  width: 164px;
+  border-bottom: 2px solid #bfbfbf;
+}
+button {
+  background-color: #fff;
+  position: relative;
+  left: -14px;
+  border-radius: 50%;
+  /* padding: 7px; */
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 3px 16px -6px rgba(0,0,0,0.60);
+  border: none;
+  color: #666666;
+}
+button:hover{
+  background: #00e6b8;
+  color: #fff;
+  cursor: pointer;
+}
+.center-div ol li {
+  font-size: 18px;
+  /* font-family: poppins; */
+  color: #999999;
+}
+.icon-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.icon-style span {
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  font-family: poppins;
+  box-shadow: 0px 3px 16px -6px rgba(0,0,0,0.60);
+  border-radius: 50%;
+  color: #999999;
+}
+.icon-style span:hover {
+  background:#ff4d94;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+}
+@media only screen and (max-width:480px) and (min-width:320px){
+  .center-div {
+   
+    width: 88vw;
+    height: 66% auto;
+}
+button {
+  position: relative;
+  left: -4px; 
+  width: 50px;
+  height: 50px;
+}
+input {
+  width: 196px;
+
+}
+}
+@media only screen and (max-width:900px) and (min-width:600px){
+  .center-div {
+    width: 52vw;
+}
+button {
+  
+  position: relative;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+}
+input {
+  width: 246px;
+ 
+}
+}
+@media only screen and (max-width:1200px) and (min-width:1000px){
+  .center-div {
+    width: 52vw;
+  
+}
+input {
+  position: relative;
+  left: 98px;
+  width: 230px;
+  border-bottom: 2px solid #bfbfbf;
+}
+button {
+
+  position: relative;
+  left: 110px;
+  width: 50px;
+  height: 50px;
+ 
+}
+}
